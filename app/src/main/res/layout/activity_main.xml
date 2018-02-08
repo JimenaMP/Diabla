@@ -20,12 +20,14 @@
         android:layout_width="match_parent"
         android:hint="Introduce un mnesaje :D"
         android:layout_margin="15dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/textoMensaje" />
 
     <Button
         android:layout_width="match_parent"
         android:text="Compratir!!!"
         android:background="@color/colorAccent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/enviar" />
 
 </LinearLayout>
